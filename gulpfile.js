@@ -3,9 +3,9 @@ var plumber     = require('gulp-plumber');
 var sass        = require('gulp-sass');
 var notify      = require('gulp-notify');
 var browserSync = require('browser-sync').create();
-var beep        = require('beepbeep')
+var beep        = require('beepbeep');
 var exec        = require('child_process').exec;
-var flaskProcess = exec('flask run')
+var flaskProcess = exec('flask run');
 
 /* Global Function Declarations */
 function plumbError(){
